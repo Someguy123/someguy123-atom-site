@@ -1,0 +1,94 @@
+<div style="background-color: #584B4F;">
+	<h1 class="text-center" style="color: #fff;padding: 10px;margin: 0px;">Someguy123's Atom Builds for Windows</h1>
+</div>
+<div class="sg-header">
+	<div class="container">
+	  <div class="text-center" style="padding: 50px">
+		<img src="https://atom.io/assets/logo-b609c07fb6a8fe9a4ca5482b53f6c6c2.png" />
+	  </div>
+	  <div class="text-center" style="padding: 10px">
+		<a href="<%= latest_stable %>" target="_blank">
+			<button class="btn btn-success"><img src="images/win.png" style="height: 32px" /> Download Latest Stable Build (.zip)</button>
+		</a>
+		<a href="<%= latest_unstable %>" target="_blank">
+			<button class="btn btn-danger"><img src="images/win.png" style="height: 32px" /> Download Latest Unstable Build (.zip)</button>
+		</a>
+	  </div>
+  </div>
+</div>
+<div class="sg-middle">
+	<div class="container panel panel-default">
+		<p class="sg-paragraph panel-body">Atom is an editor released by <%= link_to "GitHub", "https://github.com/atom/atom" %> originally for Mac OSX. Their official website is <%= link_to "Atom.IO", "https://atom.io" %> and you can find out more information there. Atom is similar to Sublime Text, the editor is fully customizable just by editing the HTML, CSS, and Javascript, making it easy to build packages for.
+		</p>
+		<p class="sg-paragraph" style="line-height: 14pt;"><small>Disclaimer: I am unaffiliated with GitHub, these builds are provided at your own risk, although a lot of people are using them now (Just Google atom builds for windows). Attribution: Atom, and the Atom logo are owned by Github. Both are licensed under the MIT license allowing me to display them here under terms that I attribute the original author(s).</small></p>
+		
+	</div>
+</div>
+<div class="container">
+
+
+  <h3>All Releases</h3>
+  <table class="table table-bordered table-striped">
+	  <thead>
+		<th>Release Date</th>
+		<th>Download</th>
+		<th>MD5 hash</th>
+	  </thead>
+	  <tbody>
+	  <% all_builds.each do |f| %>
+		<tr>
+			<td><%= f["date"] %> - <%= renderTag f["tag_name"], f["tag_class"] %></td>
+			<td><%= link_to f["title"], f["url"], target: "_blank" %></td>
+			<td><%= f["md5"] %></td>
+		</tr>
+	  <% end %>
+	  </tbody>
+  </table>
+  </ul>
+  </p>
+  <p>These builds have been tested on <strong>Windows 7 x64</strong> and <strong>Windows 8 x64</strong>. Atom is <strong>NOT</strong> compatible with <strong>Windows XP</strong></p>
+  <p>Want to thank me? I accept bitcoin @ <code>1SomguYYsdeBFYv9ujGt1V64PwssXco5z</code></p><p>Want to hire me? <a href="http://someguy123.com">Check out my main website including my portfolio.</a></p>
+  <p>Looking for even older builds? Check my blog: <a href="http://blog.someguy123.com/atom-builds-for-windows/" target="_blank">http://blog.someguy123.com/atom-builds-for-windows/</a></p>
+  
+  <p>For anything else, send an email to <code>info #at# someguy123 dot com</code> or <a href="http://webchat.freenode.net?channels=%23atom">come on Freenode IRC in the <code>#atom</code> channel</a></p>
+  <br/><br/>
+  <div class="container">
+  <span class='st_twitterfollow_hcount' displayText='Twitter Follow' st_username='compgenius999'></span>
+<span class='st_facebook_hcount' displayText='Facebook'></span>
+<span class='st_twitter_hcount' displayText='Tweet' st_via="compgenius999"></span>
+<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+<span class='st_buffer_hcount' displayText='Buffer'></span>
+<span class='st_tumblr_hcount' displayText='Tumblr'></span>
+<span class='st_reddit_hcount' displayText='Reddit'></span>
+<span class='st_email_hcount' displayText='Email'></span>
+<span class='st_sharethis_hcount' displayText='ShareThis'></span>
+</div>
+<br/>
+<strong>Screenshots (click to enlarge)</strong>
+
+<div class="image-row" class="text-center"><br>
+		<a href="http://i.imgur.com/Xyk2Lfu.png" data-lightbox="screenshots"
+			data-title="Screenshot running on Windows 8">
+			<img src="http://i.imgur.com/Xyk2Lfu.png" alt="image-1" style="width: 300px" /></a>
+		<a href="http://i.imgur.com/dvcoV02.png" data-lightbox="screenshots"
+			data-title="Screenshot working on a clean install of Windows 7 (with mvc runtimes)"
+			><img src="http://i.imgur.com/dvcoV02.png" alt="image-2" style="width: 300px" /></a>
+</div>
+<h3>What are stable and unstable builds?</h3>
+<p>Stable builds are built from official release tags here: <%= link_to "https://github.com/atom/atom/releases", "https://github.com/atom/atom/releases" %></p>
+<p>Unstable builds are built directly from the current <%= link_to "master branch commit", "https://github.com/atom/atom" %> at the time of building. The official OSX releases use the "stable" versions of my build, so if you suffer any issues, you may want to make sure to use the stable version of Atom.</p>
+<h3 id="troubleshooting">Troubleshooting: </h3>
+<p><strong>Error: MSVCP100.DLL is missing</strong></p>
+<p>Any form of "MSVP*.DLL" error means you haven't got the Visual C++ 2010 runtime installed. </p>
+<p>These executables were built with Visual Studio 2010 and so they require the runtime to work.</p>
+<p>Because Atom is a 32-bit application, you'll need to download the 32-bit runtime even if you're on 64-bit. You may already have the runtime installed if you've installed recent applications or games.</p>
+<p><a href="http://www.microsoft.com/en-us/download/details.aspx?id=5555">Download 32-bit MSVC 2010 Runtime</a></p>
+<p><strong>File path too long</strong></p>
+<p>This error is common if you're extracting to a long path name like your Desktop. I recommend extracting it so that the base directory is <code>C:\Atom</code> or whichever drive you prefer, as this prevents long path name errors. <br>
+If that still doesn't work, please <a href="https://news.ycombinator.com/item?id=7721749">read this comment on HN</a> for more information.</p>
+<p><strong>Packages won't install. They complain about Visual Studio</strong></p>
+<p>If you want to install packages, you also need to install <a href="http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_4">Visual Studio 2010 C++ Express (free from Microsoft)</a>. If you already have an existing version of VS2010 or VS2012, you don't need to do this.</p>
+<p><strong>I installed Visual Studio to a non-standard location, and now atom won't find it</strong></p>
+<p>You can edit <code>atom-build\Atom\resources\app\apm\node_modules\atom-package-manager\lib\config.js</code> on around line 90 with something like <code>vs2010Path = "H:/VS2010/Common7/IDE";</code> and then restart Atom. Remember to use forward slashes rather than backslashes.</p>
+</div><!-- .welcome -->

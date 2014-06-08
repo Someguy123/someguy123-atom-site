@@ -1,0 +1,74 @@
+[
+	{
+		"date": "2014-06-06",
+		"url": "https://mega.co.nz/#!5wRjxDoY!xZK1nSta6l63CH-k2yk6JqiLh49FxxHDQKAwah9W4vg",
+		"md5": "1ae5a695cd9786fb38f178ca7b9f2ce0",
+		"title": "Atom Build 0.101.0-7ca6277",
+	  	"tag_name": "Stable",
+		"tag_class": "label label-success"
+	},
+	{
+		"date": "2014-06-06",
+		"url": "https://mega.co.nz/#!soZXDApJ!ynvjiuYATx0P7ccdocJYo4Q2U8_R7LJPBHHMiA-fXBQ",
+		"md5": "1197f1926a6552a903e13d15ac5592e1",
+		"title": "Atom Build 0.101.0-a2d0854",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-06-01",
+		"url": "https://mega.co.nz/#!Rx5kQRSQ!mXwigbTuk-s_Pf3tjfYQZHRz2zKy1sbA6LfxDs4Bkrk",
+		"md5": "ec45039a3f7e332cc96bacda6cd82578",
+		"title": "Atom Build 0.101.0-61ee1be",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-05-29",
+		"url": "https://mega.co.nz/#!VwwjUZjS!s12IS3HQ7SGlNzeOUTDKrSM04NMa35kYJSWBKFdU69U",
+		"md5": "200090a3a3aabad20f719fc23b7ae3ef",
+		"title": "Atom Build 0.99.0-ea0773e",
+		"tag_name": "Stable",
+		"tag_class": "label label-success"
+	},
+	{
+		"date": "2014-05-29",
+		"url": "https://mega.co.nz/#!0t5QUBrA!9ETGhnC9M6aGU1FPPBHvhz7SU_UafiSlkdYG2vp4v4c",
+		"md5": "a00da71115778449cdeacd34ff4553de",
+		"title": "Atom Build 0.100.0-eae33be",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-05-26",
+		"url": "https://mega.co.nz/#!w85lgD4K!9QeCKu83av8axHp1NREQ7qY0BgaDHH59Upp6GrKuzt8",
+		"md5": "832ba7045dadb2b86703d4b0522ea4e3",
+		"title": "Atom Build 0.100.0-00987f3",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-05-24",
+		"title": "Atom Build 0.100.0-e7c1d20",
+		"url": "https://mega.co.nz/#!x0xyVZZJ!ytQJjuNCuVECTJNYP2nglv1t-SGhLr_P7HJhi2woYXk",
+		"md5": "69251BDF49B1D24044469DDE3CDB4D95",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-05-20",
+		"title": "Atom Build 0.97.0-2c5af98",
+		"url": "https://mega.co.nz/#!Ip5niYjY!7iu4Dxsmjre7J6nj1hykr71L0ruTRR9I59ITiBape7U",
+		"md5": "3612AA5A12C485758601272E361BF7F8",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	},
+	{
+		"date": "2014-05-17",
+		"title": "Atom Build 0.96.0-a83a6e5",
+		"url": "https://mega.co.nz/#!olwUVB7b!Bxm4uQ4tras168aapdKBBSssQ5_XaE7y4vIAkQz76WE",
+		"md5": "B4AFD2C1C5496BCA4FCE17D9DF3FEE63",
+		"tag_name": "Unstable",
+		"tag_class": "label label-danger"
+	}
+]
