@@ -1,5 +1,29 @@
 [
 	{
+		"date": "2014-06-17",
+		"url": "https://mega.co.nz/#!1toQxCaR!tHKJMlTImlMhWlBgvT61Y_j-tQ-AI5Md0dRPKDleAkM",
+		"md5": "56b8914b1509c66337427c675edd557f",
+		"title": "Atom Build 0.104.0-34b9355",
+		"tag_name": "Stable",
+		"tag_class": "label label-success"
+	},
+	{
+		"date": "2014-06-11",
+		"url": "https://mega.co.nz/#!kopgRLST!wCh4EiqY7kFz4E1Xmoj6hG2j5zn-KbRsyvj_cqEjFdM",
+		"md5": "ffb87bd17f805fe798c9128437d2ff80",
+		"title": "Atom Build 0.103.0-d8d378e",
+		"tag_name": "Stable",
+		"tag_class": "label label-success"
+	},
+	{
+		"date": "2014-06-09",
+		"url": "https://mega.co.nz/#!VwYUkKYR!mv1BbTEnSbniTZ5Eo1aiX2iTLuX1IZg9k9xYACOEDRk",
+		"md5": "a60d7ece1c8dae1e914009f6814042c8",
+		"title": "Atom Build 0.102.0-7ae6cba",
+		"tag_name": "Stable",
+		"tag_class": "label label-success"
+	},
+	{
 		"date": "2014-06-06",
 		"url": "https://mega.co.nz/#!5wRjxDoY!xZK1nSta6l63CH-k2yk6JqiLh49FxxHDQKAwah9W4vg",
 		"md5": "1ae5a695cd9786fb38f178ca7b9f2ce0",
